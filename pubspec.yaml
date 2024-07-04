@@ -3,8 +3,8 @@ version: 0.0.1
 publish_to: none
 author: No email noemail@noemail.com
 description: This widget is designed for seamless navigation between different pages of the app.
-homepage: https://github.com/yourusername/karma_side_bar
-repository: https://github.com/yourusername/karma_side_bar
+homepage: https://github.com/inskarma/karma_side_bar
+repository: https://github.com/inskarma/karma_side_bar
 
 environment: 
   sdk: '>=3.4.3 <4.0.0'
