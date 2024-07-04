@@ -1,9 +1,11 @@
 Вот обновленный файл README.md с улучшенным дизайном, анимацией и иконками, подчёркивающий, что это проект на Flutter:
 
+![KarmaSideBar Logo](https://placehold.co/150?text=Karma+Dev&font=roboto))
+
+
 ```markdown
 # KarmaSideBar
 
-![KarmaSideBar Logo](https://placehold.co/150?text=Karma+Dev&font=roboto))
 
 **KarmaSideBar** is a customizable Flutter widget designed for seamless navigation between different pages of your app, with support for multi-level navigation and a sleek, customizable appearance.
 
