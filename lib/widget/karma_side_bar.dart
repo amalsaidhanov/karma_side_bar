@@ -22,7 +22,7 @@ class KarmaSideBar extends StatefulWidget {
   final TextStyle? childItemTextStyle;
 
   const KarmaSideBar({
-    Key? key,
+    super.key,
     required this.items,
     required this.onItemSelected,
     required this.selectedItem,
@@ -40,7 +40,7 @@ class KarmaSideBar extends StatefulWidget {
     this.grounditemTextStyle,
     this.childItemTextStyle,
 
-  }) : super(key: key);
+  });
 
   @override
   _KarmaSideBarState createState() => _KarmaSideBarState();
@@ -124,7 +124,7 @@ class _KarmaSideBarState extends State<KarmaSideBar> with TickerProviderStateMix
             color: widget.shadowColor,
             spreadRadius: 0,
             blurRadius: 20,
-            offset: Offset(0, 10),
+            offset: const Offset(0, 10),
           ),
         ],
       ),
@@ -163,7 +163,7 @@ class _KarmaSideBarState extends State<KarmaSideBar> with TickerProviderStateMix
             height: 1,
             color: widget.dividerColor,
           ),
-          SizedBox(height: 10),
+          const SizedBox(height: 10),
           _buildSwitchButton(),
         ],
       ),
@@ -233,7 +233,7 @@ class _KarmaSideBarState extends State<KarmaSideBar> with TickerProviderStateMix
           width: double.infinity,
           padding: EdgeInsets.symmetric(vertical: 4, horizontal: widget.itemPadding),
           decoration: BoxDecoration(
-            borderRadius: BorderRadius.all(Radius.circular(12)),
+            borderRadius: const BorderRadius.all(Radius.circular(12)),
             color: isHeader && isExpanded
                 ? Theme.of(context).colorScheme.primary.withOpacity(0.1)
                 : color,
@@ -247,7 +247,7 @@ class _KarmaSideBarState extends State<KarmaSideBar> with TickerProviderStateMix
                 fit: BoxFit.cover,
                 color: Theme.of(context).iconTheme.color,
               ),
-              SizedBox(width: 8),
+              const SizedBox(width: 8),
               _expanded || _inAnimation
                   ? Flexible(
                 child: SizedBox(
