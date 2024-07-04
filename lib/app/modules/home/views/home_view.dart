@@ -92,7 +92,7 @@ class HomeView extends StatelessWidget {
               onItemSelected: onItemSelected,
               selectedItem: 'Sub Child Access 1.1',
               isOpened: false,
-              spacing: 40.0,
+              spacing: 20.0,
               backgroundColor: Colors.white,
               shadowColor: Colors.black12,
               dividerColor: Colors.grey,

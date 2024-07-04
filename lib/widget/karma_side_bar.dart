@@ -107,7 +107,7 @@ class _KarmaSideBarState extends State<KarmaSideBar> with TickerProviderStateMix
       margin: const EdgeInsets.all(4),
       width: _expanded ? widget.openedSize : widget.closedSize,
       duration: const Duration(milliseconds: 500),
-      curve: Curves.easeInOut,
+      curve: Curves.easeInOutCubicEmphasized,
       onEnd: () => _setInAnimation(false),
       child: _buildFrame(),
     );
@@ -277,11 +277,12 @@ class _KarmaSideBarState extends State<KarmaSideBar> with TickerProviderStateMix
                 Container(
                   decoration: BoxDecoration(
                     color: Colors.white12,
-                    borderRadius: BorderRadius.circular(64),
+                    borderRadius: BorderRadius.circular(32),
                   ),
                   child: AnimatedRotation(
-                    turns: isExpanded ? 1 : 0.75,
-                    duration: const Duration(milliseconds: 150),
+                    turns: isExpanded ? 0 : 0.25,
+                    curve: Curves.easeInOutCubicEmphasized,
+                    duration: const Duration(milliseconds: 500),
                     child: Icon(
                       Icons.keyboard_arrow_down,
                       size: 20,
@@ -321,8 +322,8 @@ class _KarmaSideBarState extends State<KarmaSideBar> with TickerProviderStateMix
         Container(
           margin: const EdgeInsets.only(left: 10),
           child: AnimatedSize(
-            duration: const Duration(milliseconds: 300),
-            curve: Curves.easeInOut,
+            duration: const Duration(milliseconds: 500),
+            curve: Curves.easeInOutCubicEmphasized,
             child: isExpanded
                 ? Column(
               children: childItems,
@@ -348,8 +349,8 @@ class _KarmaSideBarState extends State<KarmaSideBar> with TickerProviderStateMix
         Container(
           margin: const EdgeInsets.only(left: 20),
           child: AnimatedSize(
-            duration: const Duration(milliseconds: 300),
-            curve: Curves.easeInOut,
+            duration: const Duration(milliseconds: 500),
+            curve: Curves.easeInOutCubicEmphasized,
             child: isExpanded
                 ? Column(
               children: grandChildItems,
