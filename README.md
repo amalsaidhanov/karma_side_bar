@@ -1,17 +1,21 @@
+Вот обновленный файл README.md с улучшенным дизайном, анимацией и иконками, подчёркивающий, что это проект на Flutter:
 
 ```markdown
 # KarmaSideBar
 
-KarmaSideBar is a customizable Flutter widget designed for seamless navigation between different pages of the app.
+![KarmaSideBar Logo](https://via.placeholder.com/150)
 
-## Features
+**KarmaSideBar** is a customizable Flutter widget designed for seamless navigation between different pages of your app, with support for multi-level navigation and a sleek, customizable appearance.
 
-- Expandable/collapsible sidebar
-- Multi-level navigation
-- Customizable appearance
-- Handles nested menu items
+## ✨ Features
 
-## Installation
+- 🚀 Expandable/collapsible sidebar
+- 📚 Multi-level navigation
+- 🎨 Customizable appearance
+- 📂 Handles nested menu items
+- 🕹️ Smooth animations
+
+## 🚀 Installation
 
 Add the following to your `pubspec.yaml` file:
 
@@ -19,10 +23,10 @@ Add the following to your `pubspec.yaml` file:
 dependencies:
   karma_side_bar_flutter:
     git:
-      url: git@github.com:amalsaidhanov/karma_side_bar.git
+      url: git@github.com:inskarma/karma_side_bar.git
 ```
 
-## Usage
+## 🛠️ Usage
 
 ### Example JSON Structure
 
@@ -122,3 +126,4 @@ KarmaSideBar(
   ),
 ),
 ```
+
