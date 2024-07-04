@@ -1,6 +1,6 @@
 Вот обновленный файл README.md с улучшенным дизайном, анимацией и иконками, подчёркивающий, что это проект на Flutter:
 
-![KarmaSideBar Logo](https://placehold.co/150?text=Karma+Dev&font=roboto))
+![KarmaSideBar Logo](https://roszkowski.dev/images/2020-05-04/Flutter-logo-animation-v1-2.gif)
 
 
 ```markdown
