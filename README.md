@@ -3,7 +3,7 @@
 ```markdown
 # KarmaSideBar
 
-![KarmaSideBar Logo](https://via.placeholder.com/150)
+![KarmaSideBar Logo](https://placehold.co/150?text=Karma+Dev&font=roboto))
 
 **KarmaSideBar** is a customizable Flutter widget designed for seamless navigation between different pages of your app, with support for multi-level navigation and a sleek, customizable appearance.
 
