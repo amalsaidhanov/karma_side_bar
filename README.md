@@ -1,10 +1,25 @@
-# MyWidget
+# KarmaSideBar
 
-A custom Flutter widget.
+KarmaSideBar is a customizable Flutter widget designed for seamless navigation between different pages of the app.
+
+## Features
+
+- Expandable/collapsible sidebar
+- Multi-level navigation
+- Customizable appearance
+- Handles nested menu items
 
 ## Installation
 
-Add this to your package's pubspec.yaml file:
+
+
+## The hierarchy structure of widget 'KarmaSideBar'
+```yaml
+dependencies:
+  karma_side_bar_flutter:
+    git:
+      url: git@github.com:amalsaidhanov/karma_side_bar.git
+
 
 ```yaml
 dependencies:
